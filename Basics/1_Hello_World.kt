@@ -1,5 +1,6 @@
 fun main(){
     println("Hello, World!")
+    println("Hello, Joha!")
 }
 
 // This is a simple Kotlin program that prints "Hello, World!" to the console.
