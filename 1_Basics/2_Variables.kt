@@ -13,4 +13,9 @@ fun main(){
     var sum = a+b   // Storing value of addition
     println(sum)    // Print sum using variable
     println(a+b)    // Print sum directly
+
+    var isEven = true
+    var x = 12
+    print("The Number is $x and ")  // Doesn't add newline
+    println("it is even")           // Adds a newline
 }
