@@ -18,4 +18,7 @@ fun main(){
     var x = 12
     print("The Number is $x and ")  // Doesn't add newline
     println("it is even")           // Adds a newline
+
+    val numbers = arrayOf(10, 20, 30, 40)   // Array declaration
+    println(numbers[2])                     // Print 3rd element
 }
