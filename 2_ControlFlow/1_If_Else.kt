@@ -1,6 +1,6 @@
 fun main() {
     print("Enter your age: ")
-    val age = readLine()!!.toInt()
+    val age = readLine()!!.toInt()  // Takes input as string and convert it to int
 
     if(age >= 18){
         println("You are eligible to vote.")
@@ -9,7 +9,7 @@ fun main() {
     }
 
     print("Enter a Number: ")
-    val n = readLine()!!.toInt()
+    val n = readLine()!!.toInt()    
     
     if(n%2==0){
         println("The Number is Even")

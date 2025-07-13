@@ -4,9 +4,11 @@ fun main(){
 
     // Kotlin can automatically detect data types, but you can also define them
     var age: Int = 22
+    var institution: String = "CUET"
+    var section: Char = 'C'
+    var isEven: Boolean = true
 
-    println("Hello my name is $name and I am $age years old.")
-    // Prints using variables
+    println("Hello my name is $name\nI am $age years old.\nI am persuing my B.Sc from $institution.")  // Prints using variables
 
     var a = 12
     var b = 24
@@ -14,11 +16,15 @@ fun main(){
     println(sum)    // Print sum using variable
     println(a+b)    // Print sum directly
 
-    var isEven = true
     var x = 12
     print("The Number is $x and ")  // Doesn't add newline
     println("it is even")           // Adds a newline
 
+    x+=10   // 10 increment of x
+
     val numbers = arrayOf(10, 20, 30, 40)   // Array declaration
-    println(numbers[2])                     // Print 3rd element
+    val names = arrayOf("Joha","Junan","Jawaher")
+
+    println(numbers[2]) // Print 3rd element
+    println(names[2])   // Print 3rd element
 }
